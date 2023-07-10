@@ -46,3 +46,80 @@ body {
     max-height: 90px;
     margin: 32px 0;
 }
+/* bonus section styles */
+.bonus{
+    margin-top: 175px ;
+}
+.bonus-heading{
+    text-align: center;
+    color: #272727;
+font-size: 40px;
+font-weight: 800;
+}
+.bonus-descrip{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+
+
+}
+.bonus-flower-box-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 48px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+caption{
+    color: #272727;
+text-align: center;
+font-size: 24px;
+font-weight: 700;;
+text-decoration: underline;
+}
+.bonus-flower-box-1{
+width: 464px;
+height: 538px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+}
+.bonus-flower-box-2{
+width: 464px;
+height: 538px; 
+border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+}
+
+.bonus-flower-box-3{
+width: 464px;
+height: 538px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+}
+.one{
+    max-width: 310px;
+    max-height: 428px;
+    margin: 110px 78px 0 76px;
+}
+.two{
+max-width: 370px;
+max-height: 370px;
+margin: 117px 47px 51px 47px;
+
+
+}
+.three{
+max-width: 314px;
+max-height: 471px;
+margin: 67px 75px 0 75px;
+
+}
+caption{
+    color: #272727;
+    margin-top: 32px;
+text-align: center;
+font-size: 24px;
+font-weight: 700;
+text-decoration: underline;
+}
