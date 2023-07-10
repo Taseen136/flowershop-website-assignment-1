@@ -1,0 +1,48 @@
+/* common shared styles */
+* {
+    font-family: 'Lato';
+}
+
+body {
+    margin: 0;
+}
+
+.btn {
+    border-radius: 8px;
+    background: #E55473;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF;
+    padding: 20px 43px;
+}
+
+/* header section styles */
+.main-header {
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    max-width: 100%;
+    padding: 50px 200px 0px 200px;
+    justify-content: space-between;
+}
+.header-content{
+    max-width: 758px;
+    max-height: 700px;
+    margin-top: 50px;
+}
+
+.header-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    max-width: 708px;
+    max-height: 288px;
+}
+
+.header-descrip {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 636px;
+    max-height: 90px;
+    margin: 32px 0;
+}
