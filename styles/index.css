@@ -14,6 +14,7 @@ body {
     font-weight: 700;
     color: #FFF;
     padding: 20px 43px;
+    border: 0;
 }
 
 /* header section styles */
@@ -139,4 +140,37 @@ justify-content: space-around;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+/* sales section styles */
+.sales-section{
+    max-width: 100%;
+    max-height: 620px;
+    border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+display: flex;
+padding: 100px 429px 80px 395px;
+gap: 200px;
+}
+.sales-written{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+    ;
+}
+.sales-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.off{
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
+}
+.sales-descrip{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
 }
